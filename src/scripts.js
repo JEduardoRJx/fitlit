@@ -297,7 +297,7 @@ function displayStepInfo() {
       <p class="reports">${dailySteps} / ${allAvgSteps}</p>
     </div>
     <div class="inline-records">
-      <h4 class="reports">Minutes Active: </h4>
+      <h4 class="reports">Mins Active: </h4>
       <p class="reports">${minutesActive}min / ${allAvgMinActive} min</p>
     </div>
     <div class="inline-records">
@@ -312,7 +312,7 @@ function displayStepInfo() {
       <p class="reports">${totalWeeklySteps}</p>
     </div>
     <div class="inline-records">
-      <h4 class="reports">Minutes Active:  </h4>
+      <h4 class="reports">Mins Active:  </h4>
       <p class="reports">${totalWeeklyMinActive} mins</p>
     </div>
     <div class="inline-records">
