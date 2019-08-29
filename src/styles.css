@@ -178,6 +178,10 @@ h3 {
   text-align: center;
 }
 
+.latest_night_sleep {
+  margin-bottom: 0px;
+}
+
 .weekly_sleep_info > h3 {
   font-size: 185%
 }
@@ -250,4 +254,53 @@ h3 {
 
 .reports {
   font-size: 115%;
+}
+
+@media screen and (max-width: 600px) {
+
+  .user_info {
+    padding: 15px;
+    width: 96%;
+  }
+
+  .water_info {
+    flex-direction: column;
+  }
+
+  .daily_water_intake {
+    margin-bottom: 15px;
+  }
+
+  .sleep_info {
+    align-content: space-around;
+  }
+
+  .sleep_qual > p,
+  .sleep_hrs > p {
+    margin-top: 15px;
+  }
+
+  .latest_night_sleep {
+    height: 225px;
+  }
+
+  .all_sleep_days {
+    flex-wrap: wrap;
+  }
+
+  .avg_sleep {
+    height: 82px;
+  }
+
+  .steps_activity_info {
+    justify-content: space-around;
+    height: 175px;
+  }
+
+  .report_and_compare {
+    text-align: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+  }
 }
