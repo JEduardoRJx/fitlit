@@ -1,7 +1,7 @@
 # FitLit Starter Kit 
 
 ## Contributors
-Naomi Campos 
+Naomi Campos & 
 J. Eduardo Rodriguez
 
 ## Introduction
@@ -23,3 +23,4 @@ With Fitlit we're given data from an activity tracker for different users over a
 [Our FitLit site](https://jeduardorjx.github.io/fitlit/src/index.html)
 
 ## Screenshot
+![Screenshot](https://i.ibb.co/4JSG6L6/fitlit.png)
