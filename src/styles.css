@@ -293,6 +293,30 @@ h3 {
     height: 82px;
   }
 
+  .sleep_qual > h3,
+  .sleep_hrs > h3 {
+    font-size: 167%;
+  }
+
+  .sleep_qual > p,
+  .sleep_hrs > p {
+    font-size: 167%;
+  }
+
+  .latest_night_sleep {
+    height: 160px;
+  }
+
+  .pillow_img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .avg_sleep > h3,
+  .weekly_sleep_info > h3 {
+    font-size: 170%;
+  }
+
   .steps_activity_info {
     justify-content: space-around;
     height: 175px;
@@ -313,35 +337,130 @@ h3 {
   }
 }
 
-/* @media screen and (max-width: 860px) {
-  .user_info {
-    width: 98%;
+@media screen and (max-width: 600px) {
+
+  .daily_section {
+    text-align: center;
   }
 
-  .water_info {
+  .user_info {
+    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
+    width: 125%;
+  }
+
+  .user_info > h3 {
+    font-size: 115%;
+  }
+
+  .user_info > p {
+    font-size: 100%;
+  }
+
+  .water_info,
+  .sleep_info,
+  .activity_block {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 125%;
+    align-self: center;
   }
 
   .daily_water_intake {
     margin-bottom: 15px;
   }
 
-  .sleep_qual {
-    display: flex;
+  .daily_water_intake > p {
+    font-size: 170%;
+  }
+
+  .water_drop_img {
+    height: 90px;
+    height: 90px;
+  }
+
+  .weekly_water_info {
     flex-wrap: wrap;
-    font-size: 100%;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .week_by_day {
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 16px;
+  }
+
+  .second_half_week {
+    margin-left: 0;
+  }
+
+  .weekly_water_info > h3 {
+    font-size: 121%;
+  }
+
+  .weekly_water_info > p {
+    font-size: 14px;
   }
 
   .sleep_qual > h3,
   .sleep_hrs > h3 {
-    font-size: 127%;
+    font-size: 117%;
+  }
 
+  .sleep_qual > p,
+  .sleep_hrs > p {
+    font-size: 117%;
   }
 
   .pillow_img {
-    height: 180px;
-    width: 200px;
+    height: 250px;
+    width: 150px;
+  }
+
+  .avg_sleep > p,
+  .avg_sleep > h3,
+  .weekly_sleep_info > h3 {
+    font-size: 119%;
+  }
+
+  .avg_sleep {
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+
+  .all_sleep_days {
+    flex-wrap: wrap;
+    font-size: 90%;
+  }
+
+  .steps_activity_info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .activity > p,
+  .steps > p {
+    font-size: 105%;
+  }
+
+  .activity_img,
+  .shoe_img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .steps {
+    margin-right: 30px;
+  }
+
+  .activity {
+    margin-left: 30px;
   }
 
 
-} */
+}
